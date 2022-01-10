@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=edge">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Document</title>
+    <script>
+    
+
+    var nome = window.prompt("Informe seu nome")
+    window.document.write(nome)
+    
+    window.alert(nomecompleto);
+
+    </script>
+    </head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Sou o professor Anatalimar</p>
+   
+</body>
+
+</html>  
