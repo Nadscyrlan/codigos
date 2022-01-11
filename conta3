@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=edge">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Document</title>
+    </head>
+
+
+
+<body>
+
+    <script>
+
+    var verifica = 0; 
+    var timpar = 0
+    var tpar = 0
+    var numPares = "";
+    var numImpares = "";
+    
+
+    var num1 = Number(window.prompt("Informe o Valor 1:"))
+    verifica = num1 % 2;
+    verifica == 0 ? tpar++ : timpar++; 
+     
+    var num2 = Number(window.prompt("Informe o Valor 2:")) 
+    verifica = num2 % 2;
+    verifica == 0 ? tpar++ : timpar++;
+    
+    var num3 = Number(window.prompt("Informe o Valor 3:"))
+    verifica = num3 % 2;
+    verifica == 0 ? tpar++ : timpar++; 
+    
+    var num4 = Number(window.prompt("Informe o Valor 4:")) 
+    verifica = num4 % 2;
+    verifica == 0 ? tpar++ : timpar++; 
+    
+    var num5 = Number(window.prompt("Informe o Valor 5:"))
+    verifica = num5 % 2;
+    verifica == 0 ? tpar++ : timpar++;
+    
+    var num6 = Number(window.prompt("Informe o Valor 6:")) 
+    verifica = num6 % 2;
+    verifica == 0 ? tpar++ : timpar++; 
+    
+    var num7 = Number(window.prompt("Informe o Valor 7:")) 
+    verifica = num7 % 2;
+    verifica == 0 ? tpar++ : timpar++; 
+    
+    var num8 = Number(window.prompt("Informe o Valor 8:"))
+    verifica = num8 % 2;
+    verifica == 0 ? tpar++ : timpar++; 
+    
+    var num9 = Number(window.prompt("Informe o Valor 9:"))
+    verifica = num9 % 2;
+    verifica == 0 ? tpar++ : timpar++; 
+    
+    var num10 = Number(window.prompt("Informe o Valor 10:")) 
+    verifica = num10 % 2;
+    verifica == 0 ? tpar++ : timpar++;
+
+
+    document.write(num1 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num2 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num3 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num4 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num5 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num6 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num7 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num8 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num9 + "<br>" + tpar + "<br>" + timpar);
+    document.write(num10 + "<br>" + tpar + "<br>" + timpar);
+    
+    </script>
+
+</body>
+
+</html>
