@@ -80,15 +80,30 @@
     </div>  
     </div>
     <script>
-    function maior()
-    if((num1>num2)&&(num1>num)) mensagem = "1°número"
-    else
+    var num1 = Number(document.getElementById('um').value)
+    var num2 = Number(document.getElementById('dois').value)
+    var num3 = Number(document.getElementById('tres').value)
+    var msg = document.querySelector('span')
+    
+    function maior(){
 
+    if((um>dois)&&(um>tres)) mensagem = "1°número"
 
+    else if((dois>um)&&(dois>tres)) mensagem = "2° número"
+
+    else if ((tres>um) &&(tres>dois)) mensagem = "3 número"
+
+    else  mensagem = "0 3 são iguais"
+
+    msg.innerHTML = mensagem
+    }
+
+    
+    var a = document.querySelector9('button')
+    a.addEventListener('click', maior)
+    
 
 
     </script>
-    
-    
     </body>
     
