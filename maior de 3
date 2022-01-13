@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=edge">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title> Atv Aula 4</title>
+    
+
+<style>
+
+
+
+    #principal{  
+        border-radius: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight:bold;
+        height: 500px;
+        width: 300px;
+        background-color: peru;
+        text-align: center;
+
+    }
+
+    #botoes{
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30px;
+        background-color: orange;
+        width: 90px;
+        padding: 80px;
+        text-align: center;
+        align-items: center;
+    }
+
+    #botao1{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #botao2{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #botao3{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #final{
+        color:royalblue;
+        text-align: center;
+
+    }
+</style>
+
+
+    </head>
+    <body>
+        <div id="principal">
+        
+        <h1 id="titulo"> Qual número é o maior?</h1>
+
+
+    <div id="botoes">
+    <input type="number" name="um" placeholder="Informe o 1° número" id="botao1"><br>
+    <input type="number" name="dois" placeholder="Informe o 2° número"id="botao2"><br>
+    <input type="number" name="tres" placeholder="Informe o 3° número"id="botao3"><br>
+    <button>Verificar</button>
+    
+   
+    <h1 id="final">RESULTADO:</h1>
+
+
+
+    </div>  
+    </div>
+    <script>
+    function maior()
+    if((num1>num2)&&(num1>num)) mensagem = "1°número"
+    else
+
+
+
+
+    </script>
+    
+    
+    </body>
+    
