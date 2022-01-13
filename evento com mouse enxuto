@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=edge">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Aula 4</title>
+    <style>
+        #area{
+        font: normal 20pt Arial;
+        height: 200px;
+        width: 200px;
+        background-color: gray;
+        text-align: center;
+        line-height: 200px;
+            }
+    </style>
+    </head>
+    <body>
+<div id="area"></div>
+
+<script>
+    var acao = document.getElementById('area')
+
+    function clique(){
+        acao.innerText = "Cliquei"
+        acao.style.background = 'blue'
+    }
+
+    function entrar(){
+        acao.innerText = "Entrei"
+        acao.style.background = 'green'
+    }
+
+
+    function sair(){
+        acao.innerText = "Sair"
+        acao.style.background = 'red'
+
+    }
+
+
+
+
+
+
+    acao.addEventListener('click', clique)
+    acao.addEventListener('mouseenter', entrar)
+    acao.addEventListener('mouseout', sair)
+</script>
+
+
+
+
+    </body>
